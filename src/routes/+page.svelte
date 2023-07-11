@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import {theme} from '../storages/store'
+    import Hero from '../libs/Hero.svelte'
+    import Nav from '../libs/Nav.svelte'
+</script>
+
+<div class="{$theme} ">
+    <div class="bg fg" >
+        <Nav></Nav>
+        <Hero/>
+    </div>
+</div>
