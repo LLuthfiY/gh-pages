@@ -1,0 +1,15 @@
+<script>
+    
+    let top = Math.random() * 100
+    let left = Math.random() * 100
+</script>
+<svg style="top:{top}%; left:{left}%;" xmlns='http://www.w3.org/2000/svg' xml:space='preserve' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' overflow='visible' viewBox='0 0 310 100'> <path d="M 70 0 L -10 0 C -25 0, -25 20, -10 20 L 90 20 C 105 20, 105 40, 90 40 L -50 40 C -65 40, -65 60, -50 60 L 30 60 C 45 60, 45 80, 30 80 L -70 80 C -85 80, -85 100, -70 100 L 130 100 C 145 100, 145 80, 130 80 L 70 80 C 55 80, 55 60, 70 60 L 190 60 C 205 60, 205 40, 190 40 L 130 40 C 115 40, 115 20, 130 20 L 210 20 C 225 20, 225 0, 210 0 Z" transform="translate(85, 0)" fill="currentColor" stroke="none" stroke-width="0" /> </svg>
+<style>
+    path {
+        fill: var(--bgAlt);
+    }
+    svg {
+        height: 120px;
+        position: absolute;
+    }
+</style>

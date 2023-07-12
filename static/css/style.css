@@ -34,10 +34,17 @@
     color: var(--fg);
 }
 
+.bgAlt{
+    background-color: var(--bgAlt);
+}
+
 select {
     padding: 1rem;
     border-radius: .5rem;
     border: 1px solid var(--accent);
-    font-weight: 600;
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--Spline);
+    font-weight: 100;
 }
 

@@ -1,5 +1,6 @@
 
 <script>
+    import ThemeSelector from '../libs/ThemeSelector.svelte';
     import {theme} from '../storages/store'
 </script>
 <svelte:head>
@@ -18,12 +19,16 @@
         min-height: 100vh;
 
     }
-    :global(select, div, button, p, span, option, li, table, a) {
+    :global(select, div, button, p, span, option, li, table, a, pre) {
         font-family: var(--Spline);
         color: var(--fg);
+        transition-duration: 200ms;
     }
 
 </style>
 <div class=" courier">
     <slot/>
+    <div class=" absolute" style="bottom:1rem; right:1rem;">
+        <ThemeSelector/>
+    </div>
 </div>
