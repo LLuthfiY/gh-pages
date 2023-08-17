@@ -17,13 +17,25 @@
         background-color: var(--bg);
         color: var(--fg);
         min-height: 100vh;
-
+        
     }
     :global(select, div, button, p, span, option, li, table, a, pre) {
         font-family: var(--Spline);
         color: var(--fg);
         transition-duration: 200ms;
     }
+    :global(div::-webkit-scrollbar) {
+        width: 5px;
+    }
+    
+    :global(div::-webkit-scrollbar-track) {
+    background: transparent;
+    }
+    
+    :global(div::-webkit-scrollbar-thumb) {
+    background: whitesmoke; 
+    }
+
 
 </style>
 <div class=" courier">
